@@ -68,9 +68,6 @@
        <div class="events_1i1i clearfix text-center">
         <a href="{{ route('movie.show',$movie->id) }}"><img src="{{$movie->photo ? asset('storage/'.$movie->photo) : asset('images/productioncompany.jpg')}}" alt="abc" width="355px" height="280px"></a>
        </div>
-       {{-- <div class="events_1i1i1 clearfix position-absolute bottom-0 text-center w-100">
-         <h6 class="mb-0"><a class="button_1" href="#">Book Now </a></h6>
-       </div> --}}
       </div>
       <div class="events_1i2 clearfix p-3 pt-4 pb-4 bg-light text-center">
        <h5 class="text-uppercase "><a href="{{ route('movie.show',$movie->id) }}">{{ $movie->title }}</a></h5>
